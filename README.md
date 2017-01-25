@@ -19,16 +19,16 @@ The first analysis we make from this plot is that the notes are in average prett
 We decided to go further in the analysis of the global trend of 20 years.
 The next graph presents the number of games published, with the appreciation they received. The appreciation is directly linked with the note.
 
-10 is a Masterpiece.
-9-9.9 is Amazing
-8-8.9 is Great
-7-7.9 is Good
-6-6.9 is OK
-5-5.9 is Mediocre
-4-4.9 is Bad
-3-3.9 is Awful
-2-2.9 is Painful
-1-1.9 is Unbearable
-0-0.9 is Disaster
+ - 10 is a Masterpiece
+ - 9-9.9 is Amazing
+ - 8-8.9 is Great
+ - 7-7.9 is Good
+ - 6-6.9 is OK
+ - 5-5.9 is Mediocre
+ - 4-4.9 is Bad
+ - 3-3.9 is Awful
+ - 2-2.9 is Painful
+ - 1-1.9 is Unbearable
+ - 0-0.9 is Disaster
 ![Number of games per year, with appreciation](plots/number per year - stacked.png)
 
