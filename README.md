@@ -61,7 +61,7 @@ With the years, platforms have evolved, and some might not be available anymore.
 This is seen if we study the variations of colors from left to right. However, if we see the graph from top to bottom, we cannot conclude that a platform have noticeably received better critics than another.
 
 We decided to focus our study on two majors producers, Nitendo and Sony.
-
+First, let's look at Nitendo.
 ![Platforms of Nitendo](plots/Nintendo/nintendo per year.png)
 
 As said previously, we can noticed the living time of each console, and the overlapping between two generations of consoles.
