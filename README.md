@@ -32,4 +32,7 @@ The next graph presents the number of games published, with the appreciation the
  - 1-1.9 is Unbearable
  - 0-0.9 is Disaster
 ![Number of games per year, with appreciation](plots/number per year - stacked.png)
-The informations added by this plot is the fact that the number of games per year is extremely varying. As expected, there was very few games in 1995, because it was the beginning of the industry. We can notice a huge production in 2008. Rather suprisingly, it is decreasing after 2008. It can be explained by the dataset provenance. Indeed, it is reviews from a website, and it has been made before the end of 2016. So we can conclude that many years from the last 3-4 years haven't been reviewed yet.
+The informations added by this plot is the fact that the number of games per year is extremely varying. As expected, there was very few games in 1995, because it was the beginning of the industry. We can notice a huge production in 2008. Rather suprisingly, it is decreasing after 2008. It can be explained by the dataset provenance. Indeed, it is reviews from a website, and it has been made before the end of 2016. So we can conclude that many games from the last 3-4 years haven't been reviewed yet.
+
+![Appreciation of games along the years](plots/number per year - divided.png)
+In this plot, we can confirm that the majority of games are reviewed as good, and great.
