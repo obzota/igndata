@@ -2,7 +2,6 @@
 Analysis on IGN ranking of videogames
 
 
-# Global Trend
 ## 20 years of games
 Our initial goal is to determine if there are some temporal trends in the videogame industry ruled by the genre of the games.
 For doing so, we took a dataset of [IGN](http://www.ign.com/games/reviews) reviews on videos games published since 20 years.
@@ -42,8 +41,9 @@ In this plot, we can confirm that the majority of games are reviewed as good, an
 
 ##Variations with months
 We are now interested of the tendance during the year. Are the games published uniformely during the year, or is there pics ?
+
 ![Number of Release along the year](plots/game_month.png)
-![Mean of Notes along the year (Zoom)](plots/number per month - stacked.png)
+![Appreciations along the year](plots/number per month - stacked.png)
 
 As we can see in these plot, we notice a huge number of release in november, and two small pics in March and in June. The pic of November can be explained by the proximity with Christmas.
 
@@ -52,8 +52,24 @@ As we can see in these plot, we notice a huge number of release in november, and
 It is interesting to notice that even if the majority of games are released before Christmas, the best marked games are published in September. However we cannot really conclude because the difference in mean, and the first and third quartile is not extremely visible as we can see in the next plot.
 ![Mean of Notes along the year](plots/score per month.png)
 
+##Editors and platform
+
+Another way to study this dataset is to focus on the platforms and the editors.
+![Evolution of platforms during 20 years](plots/score per year.png)
+
+With the years, platforms have evolved, and some might not be available anymore. 
+This is seen if we study the variations of colors from left to right. However, if we see the graph from top to bottom, we cannot conclude that a platform have noticeably received better critics than another.
+
+We decided to focus our study on two majors producers, Nitendo and Sony.
+
+![Platforms of Nitendo](plots/Nintendo/nintendo per year.png)
+
+As said previously, we can noticed the living time of each console, and the overlapping between two generations of consoles.
+The Wii is the console where most games have been produced, but also the worst.
+It is to notice that games that are published nowadays are often published on several generations of consoles, the Wii, the Wii U and now the Switch, but the dataset doesn't seems to have registered all the supported platforms.
 
 
+Let's now look at the second major publisher, Sony.
+![Platforms of Sony](plots/Sony - PlayStation/Sony per year.png)
 
-
-
+There is not remarquable variations among the platforms.
