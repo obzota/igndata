@@ -2,8 +2,8 @@
 Analysis on IGN ranking of videogames
 
 
-# First approach
-
+# Global Trend
+## 20 years of games
 Our initial goal is to determine if there are some temporal trends in the videogame industry ruled by the genre of the games.
 For doing so, we took a dataset of [IGN](http://www.ign.com/games/reviews) reviews on videos games published since 20 years.
 
@@ -36,3 +36,15 @@ The informations added by this plot is the fact that the number of games per yea
 
 ![Appreciation of games along the years](plots/number per year - divided.png)
 In this plot, we can confirm that the majority of games are reviewed as good, and great.
+
+
+##Variations with months
+We are now interested of the tendance during the year. Are the games published uniformely during the year, or is there pics ?
+![Number of Release along the year](plots/game_month.png)
+As we can see in this plot, we notice a huge number of release in november, and two small pics in March and in June. The pic of November can be explained by the proximity with Christmas.
+
+![Mean of Notes along the year](plots/mean_month.png)
+It is interesting to notice that even if the majority of games are released before Christmas, the best marked games are published in September. It could be explained by a rush to published games before the Christmas deadline, resulting in numerous bugs and incomplete features. This hypothesis needs further study.
+
+
+
