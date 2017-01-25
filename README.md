@@ -43,8 +43,8 @@ We are now interested of the tendance during the year. Are the games published u
 ![Number of Release along the year](plots/game_month.png)
 As we can see in this plot, we notice a huge number of release in november, and two small pics in March and in June. The pic of November can be explained by the proximity with Christmas.
 
-![Mean of Notes along the year](plots/mean_month.png)
-It is interesting to notice that even if the majority of games are released before Christmas, the best marked games are published in September. It could be explained by a rush to published games before the Christmas deadline, resulting in numerous bugs and incomplete features. This hypothesis needs further study.
-
+![Mean of Notes along the year (Zoom)](plots/mean_month.png)
+It is interesting to notice that even if the majority of games are released before Christmas, the best marked games are published in September. However we cannot really conclude because the difference in mean, and the first and third quartile is not extremely visible as we can see in the next plot.
+![Mean of Notes along the year](plots/score per month.png)
 
 
