@@ -15,7 +15,7 @@ The dataset can be found on the [kaggle](https://www.kaggle.com/egrinstein/20-ye
 
 Given this set of data, we want to dig through those 20 years of records to understand the short evolution of the gaming industry. We are epecially interested if we can find some trends within the industry that can explain the relative success or failure of some games. 
 
-We think the two main factors are the genre of a game and the platform supporting it.
+We think the two main factors are the *genre* of a game and the *platform* supporting it.
 
 
 # Analysis
@@ -28,19 +28,23 @@ Our first task is to understand the general shape of our dataset. This way we ca
 
 The next graph presents the number of games published, with the appreciation they received. The appreciation is directly linked with the note.
 
- - 10 is a Masterpiece
- - 9-9.9 is Amazing
- - 8-8.9 is Great
- - 7-7.9 is Good
- - 6-6.9 is OK
- - 5-5.9 is Mediocre
- - 4-4.9 is Bad
- - 3-3.9 is Awful
- - 2-2.9 is Painful
- - 1-1.9 is Unbearable
- - 0-0.9 is Disaster
+ - 10: Masterpiece
+ - 9-9.9: Amazing
+ - 8-8.9: Great
+ - 7-7.9: Good
+ - 6-6.9: OK
+ - 5-5.9: Mediocre
+ - 4-4.9: Bad
+ - 3-3.9: Awful
+ - 2-2.9: Painful
+ - 1-1.9: Unbearable
+ - 0-0.9: Disaster
  
 ![Number of games per year, with appreciation](plots/number per year - stacked.png)
+
+It is clear that this dataset features both many *genres* and many *platforms*, resulting in a lot of categories. That's why we may restrict some part of our analysis to a susbset of data.
+
+We also observe a strange repartition of the number of rating along the year so we need to keep it in mind in the further work.
 
 ## Temporality
 
@@ -80,7 +84,7 @@ It is interesting to notice that even if the majority of games are released befo
 
 ## Platform: Analysing two series of consoles
 
-We decided to focus our study on two majors producers, Nitendo and Sony. With the years, platforms have evolved, and some might not be available anymore. 
+We decided to focus our study on two majors producers, **Nintendo** and **Sony**. With the years, platforms have evolved, and some might not be available anymore. 
 
 We want to see with this short example if there exists some patterns around cycles of console generation.
 
@@ -97,7 +101,7 @@ We cannot conclude that a platform have noticeably received better critics than 
 ### Nintendo's saga
 Our second serie will be the consoles from Nintendo.
 
-![Platforms of Nitendo](plots/Nintendo/nintendo per year.png)
+![Platforms of Nintendo](plots/Nintendo/nintendo per year.png)
 
 Here we can observe some irregularities. It seems the Wii as received more attention with more games tested and that the general shape of the rating is lower than the others.
 
@@ -107,28 +111,40 @@ It is also to notice that games published nowadays are often supported on severa
 
 ### Zoom into a generation
 
-> upload generation graph
+![A generation of console](plots/a generation of console.png)
 
-Interested in this comparison between companies, we try to focus on a single generation of the same kind of console: Wii, PlayStation 3 and Xbox 360. Something worth noticing is the apparent lifetime of the wii is shorter than the PlayStation 3 or the Xbox 360.
+Interested in this comparison between companies, we try to focus on a single generation of the same kind of console: **Wii**, **PlayStation 3** and **Xbox 360**. Something worth noticing is the apparent lifetime of the wii is shorter than the **PlayStation 3** or the **Xbox 360**.
 
-We can relate this to the release of the Wii U in Nov 2012. Its reception by the public was not a success: people did not understood the difference with the Wii. It may have been a mistake for Nintendo to not let the Wii finish it lifecycle more slowly.
+We can relate this to the release of the **Wii U** in Nov 2012. Its reception by the public was not a success: people did not understood the difference with the Wii. It may have been a mistake for Nintendo to not let the **Wii** finish it lifecycle more slowly.
 
 ## Genre: the moving waves
 
-Our last interest was the genre approach 
+Our last interest is how our statistics depends on the genre of the games. Please note we restricted our analysis to the main genre (gathering more than *90* of the database).
 
 ### Rating
 
-> Upload hist rating - genre
+![Rating histograms by Genre](plots/genre - hist rating.png)
 
- Nothing new under the sun ...
+With this histogram displaying the repartion of ratings along different genre, we don't observe much impact of the repartition. The distribution of grades appears to be quite the same as the overall distribution.
 
 ### Temporality
 
-> Upload hist year - genre
+![Year of release histograms by Genre](plots/genre - hist year.png)
 
-> conclude on genre
+This diagram is much more interesting because it demonstrate some differences between the genre. Let's keep in mind that the general shape of the data features two spikes, a little in 2000 and the major one in 2008.
+
+First we can see that some genre came early into the industry like **racing** or **sport**. They were present in 2000 but relatively less important in 2008 and declined  since then more rapidly than other genre. 
+
+Second some genre have late impact like **adventure** or **shooter** kicking off around 2003 and maintaining a good relative number of releases.
+
+Then come the case of **music** related games, with what seems to be a single spike around 2008 and not much since then.
+
+Finally we can see that the overall winner is **action**, by being the predominant genre in the whole period. 
+
+We think all those tendencies can be explained by the technical chalenges raised by the production of a game. In early days, the hardware capabilities and the development environments may prevent the exploration of genre requiring huge immersive worlds, or even interactions between players over the internet.
 
 # Conclusion
 
-> Conclude
+This dataset appears to be complex to analyse due to the inconsistency of the rating, the huge number of categories (genre, platforms) but we do observe a few thing about the gaming industry. 
+
+It is a good experience to find those links between the data and the real world.
