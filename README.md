@@ -13,7 +13,7 @@ The dataset can be found on the [kaggle](https://www.kaggle.com/egrinstein/20-ye
 
 ## Our goal
 
-Given this set of data, we want to dig through those 20 years of records to understand the short evolution of the gaming industry. We are epecially interested if we can find some trends within the industry that can explain the relative success or failure of some games. 
+Given this set of data, we want to dig through those 20 years of records to understand the short evolution of the gaming industry. We are especially interested if we can find some trends within the industry that can explain the relative success or failure of some games. 
 
 We think the two main factors are the *genre* of a game and the *platform* supporting it.
 
